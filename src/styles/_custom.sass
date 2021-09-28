@@ -1,0 +1,128 @@
+.fondo-intro
+  background: url('../assets/curso/fondo-intro.png')
+  background-position: center
+  background-size: contain
+  background-repeat: no-repeat
+.fondo1
+  background: url('../assets/curso/tema1/fondo1.png')
+  background-position: center
+  background-size: contain
+  background-repeat: no-repeat
+  
+
+//CUSTOM PASOS TIPO N CON BORDE
+.pasos-a__circle
+  width: 58px
+  height: 58px
+  min-width: 50px
+  border-radius: 50%
+
+.pasos-a.color-primario .pasos-a__circle 
+  background-color: #FFF
+  border: 3px solid #1D272B
+
+.pasos-a.color-primario .pasos-a__circle div
+  color: #00978E
+  font-size: 28px
+
+.pasos-a.color-primario .pasos-a__numero::after
+  border-left-color: #1D272B
+.pasos-a.color-primario .pasos-a__linea__esquina__linea
+  border-color: #1D272B
+.pasos-a.color-primario .pasos-a__linea .hor-line
+  border-top-color: #1D272B
+//END CUSTOM PASOS TIPO N CON BORDE
+
+.fondo-bg
+  background-image: url(../assets/curso/bg-intro.png)
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: bottom center
+  margin-inline: -3.4rem
+.fondo-bg2
+  background-image: url(../assets/curso/tema1/fondo-bg1.png)
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: bottom center
+  margin-inline: -3.4rem
+
+
+//TARJETAS-----LARGAS-----NOOO HOVERRRRR-----------
+.tarjeta-larga1
+  background: linear-gradient(180deg,#d1ebea,#d1ebea)
+  box-shadow: 0 0 15px rgba(0,0,0,.3)
+  .tarjetaLarga-basic1
+    .tarjetaImgL
+      border-top: 7px solid #008F85
+  
+.tarjeta-larga2
+  background: linear-gradient(180deg,#f5f5f5,#f6f6f6)
+  box-shadow: 0 0 15px rgba(0,0,0,.3)
+  .tarjetaLarga-basic1
+    .tarjetaImgL
+      border-top: 7px solid #1d272b
+
+$tarjeta-dimension-weight4: 295px
+$tarjeta-dimension-height4: 405px
+
+.tarjeta-container-Larga
+  position: relative
+  overflow: hidden
+  width: $tarjeta-dimension-weight4
+  height: $tarjeta-dimension-height4
+  border-radius: 0    
+  
+  .tarjetaLarga-basic1
+    position: relative    
+    top: 0 
+    left: 0      
+    transition: all 0.45s 0s ease
+    .tarjetaImgL
+      display: flex
+      flex-direction: column
+      justify-content: start
+      align-items: center          
+      width: $tarjeta-dimension-weight4
+      height: $tarjeta-dimension-height4
+      padding: 0rem
+      text-align: start
+
+.bg-num1
+  background: url('../assets/curso/tema1/bgNum1.png')
+  background-position: left top
+  background-size: auto
+  background-repeat: no-repeat
+.bg-num2
+  background: url('../assets/curso/tema1/bgNum2.png')
+  background-position: left top
+  background-size: auto
+  background-repeat: no-repeat
+.bg-num3
+  background: url('../assets/curso/tema1/bgNum3.png')
+  background-position: left top
+  background-size: auto
+  background-repeat: no-repeat
+.bg-num4
+  background: url('../assets/curso/tema1/bgNum4.png')
+  background-position: left top
+  background-size: auto
+  background-repeat: no-repeat
+/*ENDDDD ------TARJETAS-----LARGAS-----NOOO HOVERRRRR
+
+
+.linea-tiempo-d__item__dots:after 
+  border-left: 5px dotted #e8e8e8
+
+.lista-ol--cuadro__vineta 
+  background-color: #00978E
+
+.fa-biohazard
+  color: #D93328
+
+@media screen and ( max-width: 576px) 
+  .fondo-bg, .fondo-bg2
+    //margin-inline: 1.4rem
+    margin-inline: 0rem
+  .fondo-intro, .fondo1
+    background-size: auto
+    background: url('../assets/curso/fondo-banner.png')
