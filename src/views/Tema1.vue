@@ -22,9 +22,9 @@
           b el presente apartado surge con la intención que usted identifique técnicas de asepsia y desinfección del cuerpo y utensilios para su correcta aplicación en el contexto laboral. 
           
         .cajon.color-secundario.p-4.mb-0
-          p.mb-0 Antes de continuar, es importante que usted se pregunte
-            b ¿qué es la asepsia?
-            b-none ; para ayudarlo con esa respuesta es importante que se detenga en esta definición. 
+          p.mb-0 Antes de continuar, es importante que usted se pregunte 
+            b ¿qué es la asepsia?; 
+            b-none para ayudarlo con esa respuesta es importante que se detenga en esta definición. 
 
 
 
@@ -51,7 +51,7 @@
       b(style="color: #008F85;") se ha preguntado qué es una técnica en el contexto de la asepsia
       b-none , si usted acude a varias fuentes de información avaladas académicamente puede coincidir con esta:
 
-    .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
+    .bloque-texto-a.color-primario.p-4.p-md-5.mb-5 
       .row.m-0.align-items-center.justify-content-between
         .col-lg-3.mb-4.mb-lg-0
           figure
@@ -202,51 +202,174 @@
                       .tabla-a.color-primario.mb-5 
                         table
                           thead
-                            tr
-                              th(style='width:15%') Tipo de esterilizaci&oacute;n
-                              th(style='width:15%') M&eacute;todo de esterilizaci&oacute;n
-                              th Ventajas
+                            tr(style='border-bottom: solid 2px #12263F')
+                              th(style='width:15%; border-right: solid 2px #12263F') Tipo de esterilizaci&oacute;n
+                              th(style='width:15%; border-right: solid 2px #12263F') M&eacute;todo de esterilizaci&oacute;n
+                              th(style='border-right: solid 2px #12263F') Ventajas
                               th Desventajas
                           tbody
-                            tr
-                              td.text-center(rowspan='3') F&iacute;sico
-                              td Vapor 
+                            tr(style='border-bottom: solid 2px #12263F;')
+                              td.text-center(rowspan='3' style='border-right: solid 2px #12263F;') F&iacute;sico
+                              td.text-center(style='border-right: solid 2px #12263F;  background-color: #ffff') Vapor 
+                              td(style='border-right: solid 2px #12263F;  background-color: #ffff')
+                                ul.lista-ul.mb-4
+                                  li 
+                                    i.fas.fa-biohazard
+                                    p.mb-0 No es t&oacute;xico.
+                                  li 
+                                    i.fas.fa-biohazard
+                                    p.mb-0 R&aacute;pido efecto biocida.
+                                  li 
+                                    i.fas.fa-biohazard
+                                    p.mb-0 Ciclo r&aacute;pido, 20 minutos a 121&ordm;C y a 134&ordm;C entre 3 a 5 minutos.
+                                
+                              td(style='background-color: #ffff;')
+                                ul.lista-ul.mb-4
+                                  li 
+                                    i.fas.fa-biohazard
+                                    p.mb-0 No es apto para el material termosensible.
+                                  li 
+                                    i.fas.fa-biohazard
+                                    p.mb-0 Riesgo de humedad y de oxidaci&oacute;n.
+                                
+                            tr(style='border-bottom: solid 2px #12263F')
+                              td.text-center(style='border-right: solid 2px #12263F') Calor Seco
+                              td(style='border-right: solid 2px #12263F')
+                                ul.lista-ul.mb-4
+                                  li 
+                                    i.fas.fa-biohazard
+                                    p.mb-0 No es corrosivo.
+                                  li 
+                                    i.fas.fa-biohazard
+                                    p.mb-0 Esterilizaci&oacute;n de sustancias en polvo o no acuosas.
+                                  li 
+                                    i.fas.fa-biohazard
+                                    p.mb-0 Temperatura promedio entre 140&ordm;C y 190&ordm;C.
+                                
                               td
-                                | No es t&oacute;xico.
-                                br
-                                | R&aacute;pido efecto biocida.
-                                br
-                                | Ciclo r&aacute;pido, 20 minutos a 121&ordm;C y a 134&ordm;C entre 3 a 5 minutos
+                                ul.lista-ul.mb-4
+                                  li 
+                                    i.fas.fa-biohazard
+                                    p.mb-0 Mayor tiempo de esterilizaci&oacute;n.
+                                
+                            tr(style='border-bottom: solid 2px #12263F')
+                              td.text-center(style='border-right: solid 2px #12263F; background-color: #ffff') Radiaci&oacute;n ionizante 
+                              td(style='border-right: solid 2px #12263F; background-color: #ffff')
+                                ul.lista-ul.mb-4
+                                  li 
+                                    i.fas.fa-biohazard
+                                    p.mb-0 M&eacute;todo muy eficiente en la desactivaci&oacute;n de microorganismos.
+                                  li 
+                                    i.fas.fa-biohazard
+                                    p.mb-0 Es r&aacute;pido, flexible y tiene gran capacidad de penetraci&oacute;n en lo materiales.
+                                
+                              td(style='background-color: #ffff;')
+                                ul.lista-ul.mb-4
+                                  li 
+                                    i.fas.fa-biohazard
+                                    p.mb-0 Solo puede ser aplicada dentro de instalaci&oacute;n especificas con un alto nivel de seguridad.
+                            
+                            tr(style='border-bottom: solid 2px #12263F')
+                              td.text-center(rowspan='4' style='border-right: solid 2px #12263F') Quimico
+                              td.text-center(style='border-right: solid 2px #12263F') Plasma/Vapor de peróxido de hidrógeno 
+                              td(style='border-right: solid 2px #12263F')
+                                ul.lista-ul.mb-4
+                                  li 
+                                    i.fas.fa-biohazard
+                                    p.mb-0 Seguro para trabajadores y medio ambiente.
+                                  li 
+                                    i.fas.fa-biohazard
+                                    p.mb-0 No tóxico.
+                                  li 
+                                    i.fas.fa-biohazard
+                                    p.mb-0 Ciclos rápidos.
                               td
-                                | No es apto para el material termosensible.
-                                br
-                                | Riesgo de humedad y de oxidaci&oacute;n.
-                            tr
-                              td Calor Seco
+                                ul.lista-ul.mb-4
+                                  li 
+                                    i.fas.fa-biohazard
+                                    p.mb-0 No procesa la celulosa, tela o líquidos.
+                                
+                                  li 
+                                    i.fas.fa-biohazard
+                                    p.mb-0 Sensible a la presencia de humedad.
+                                  li 
+                                    i.fas.fa-biohazard
+                                    p.mb-0 Contenedores especiales.
+                            tr(style='border-bottom: solid 2px #12263F')
+                              td.text-center(style='border-right: solid 2px #12263F; background-color: #ffff') Oxido de etileno
+                              td(style='border-right: solid 2px #12263F; background-color: #ffff')
+                                ul.lista-ul.mb-4
+                                  li 
+                                    i.fas.fa-biohazard
+                                    p.mb-0 Alta eficacia.
+                                  li 
+                                    i.fas.fa-biohazard
+                                    p.mb-0 Buena difusión y penetrabilidad.
+                                  li 
+                                    i.fas.fa-biohazard
+                                    p.mb-0 Relativamente económico.
+                                  li 
+                                    i.fas.fa-biohazard
+                                    p.mb-0 Temperatura entre 37 a 63 ºC por un tiempo entre 1 a 6 horas.
+                              td(style='background-color: #ffff;')
+                                ul.lista-ul.mb-4
+                                  li 
+                                    i.fas.fa-biohazard
+                                    p.mb-0 Necesita recipientes especiales y tiempo para airearse una vez culminado el ciclo.
+                            tr(style='border-bottom: solid 2px #12263F')
+                              td.text-center(style='border-right: solid 2px #12263F') Ozono 
+                              td(style='border-right: solid 2px #12263F')
+                                ul.lista-ul.mb-4
+                                  li 
+                                    i.fas.fa-biohazard
+                                    p.mb-0 Esterilización de material sensible a la temperatura.
                               td
-                                | No es corrosivo.
-                                br
-                                | esterilizaci&oacute;n de sustancias en polvo o no acuosas.
-                                br
-                                | Temperatura promedio entre 140&ordm;C y 190&ordm;C.
-                              td Mayor tiempo de esterilizaci&oacute;n 
-                            tr
-                              td Radiaci&oacute;n ionizante 
-                              td
-                                | m&eacute;todo muy eficiente en la desactivaci&oacute;n de microorganismos.
-                                br
-                                | Es r&aacute;pido, flexible y tiene gran capacidad de penetraci&oacute;n en lo materiales.
-                              td
-                                | Solo puede ser aplicada dentro de instalaci&oacute;n especificas con un alto nivel de seguridad.
-
-
-
-              .row(numero="4" titulo="")
+                                ul.lista-ul.mb-4
+                                  li 
+                                    i.fas.fa-biohazard
+                                    p.mb-0 Es de uso limitado.
+                            tr(style='border-bottom: solid 2px #12263F')
+                              td.text-center(style='border-right: solid 2px #12263F; background-color: #ffff;') Gas/solución de formaldehído
+                              td(style='border-right: solid 2px #12263F; background-color: #ffff;')
+                                ul.lista-ul.mb-4
+                                  li 
+                                    i.fas.fa-biohazard
+                                    p.mb-0 Alto poder germicida.
+                                  li 
+                                    i.fas.fa-biohazard
+                                    p.mb-0 No es explosivo ni inflamable en las concentraciones necesarias para esterilizar.
+                              td(style='background-color: #ffff;')
+                                ul.lista-ul.mb-4
+                                  li 
+                                    i.fas.fa-biohazard
+                                    p.mb-0 Altamente tóxico.
+                                  li 
+                                    i.fas.fa-biohazard
+                                    p.mb-0 Tiempo de desinfección entre 2 a 4 horas.
+                
+                      h4.mb-4 Esterilización o desinfección de alto nivel 
+                      p.mb-4 La desinfección de alto nivel se refiere al proceso de desinfección capaz de eliminar casi todos los microorganismos, incluyendo todos los virus y hongos, el bacilo de la tuberculosis e incluso algunas endosporas. Este proceso se emplea principalmente para realizar la desinfección a los instrumentos que no pueden ser esterilizados.
+              
+              .row(numero="4" titulo="Almacenamiento adecuado")
                 .col-md-12.mb-4.mb-md-0
-                  
+                  p.mb-2 Cuando los objetos o instrumentos han sido desinfectados o esterilizados estos deberán de ser guardados en recipientes adecuadamente esterilizado o desinfectado por un máximo de una semana después de tratarlos.
               
 
-
+    .row.justify-content-around.fondo2.mb-4(style="border-radius: 8px;")
+      .col-lg-9.py-md-5.my-5
+        .row.justify-content-center
+          .col-auto.align-self-center
+            figure
+              img.mx-auto(src='@/assets/curso/img-intro1.svg', alt='imagen ambiental', style='width: 110px;')
+          .col.align-self-center
+            p.mb-0 Al dar inicio de 
+              b(style="color: #008F85;") limpieza y desinfección de un cadáver, 
+              b-none instrumental y los equipos que se utilizaran en el proceso de 
+              b(style="color: #008F85;") embalsamamiento 
+              b es indispensable que el personal destinado a dicha práctica haga uso de elementos de protección personal 
+              b-none y cumplimiento de los procedimientos de asepsia con la intención del cuidado de la salud pública. 
+      .col-md-2.col-sm-1
+        //vacio
 
 
 
