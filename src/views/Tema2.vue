@@ -199,9 +199,20 @@
           .col-md-2.col-sm-1
             //vacio
             
-        .row.justify-content-center.mb-5
+        .row.justify-content-start
+          .col-xl-5.mb-4.mb-lg-0
+            figure.mb-0.ms-md-2
+              img.mx-auto(src='@/assets/curso/tema2/img46.svg', alt='incremento de la resistensia', style='width: 350px;')
+          .col-sm-auto.col-lg-2
+            figure.mb-0
+              img.mx-lg-auto(src='@/assets/curso/tema2/icon1.svg', alt='incremento de la resistensia', style='width: 79px;')
+        .row.justify-content-center.mb-0
           .col-lg-9
-            LineaTiempoB.color-secundario.mb-5(:datos="datosLineaTiempoB")
+            LineaTiempoB.color-secundario.mb-0(:datos="datosLineaTiempoB")
+        .row.justify-content-center.mb-5
+          .col-auto
+            figure.mb-0
+              img.mx-lg-auto(src='@/assets/curso/tema2/icon10.svg', alt='incremento de la resistensia', style='width: 79px;')
 
     
     .row.justify-content-center.fondo-bg5
@@ -649,7 +660,7 @@
             .col-lg-4.mb-4
               figure
                 img.mx-auto(src='@/assets/curso/tema2/img27.svg', alt='imagen ambiental', style="width: 330px;")
-            .col-lg-8.mb-4
+            .col-lg-8.mb-4.align-self-center
               .cajon.color-secundario.p-4.mb-0
                 p.mb-0 Por eso se sugiere que siempre 
                   b  se debe asumir que los cuerpos están infectados y tomar las precauciones para su tratamiento 
@@ -833,7 +844,7 @@
                 .tarjeta-numerada__numero
                   .h1 c
                 p.mb-0 Los instrumentos tendrán que limpiarse antes de realizar la desinfección, ya que, si no se realiza la eliminación del material orgánico, la desinfección no será tan eficaz. Deberá prestar mayor atención a los instrumentos cortopunzantes cuando se llegasen a usar en un cadáver con evidencia de gangrena gaseosa, ya que esta condición C. perfringens, es un bacilo que forma esporas y se transmite fácilmente entre estos tipos de instrumentos. Para finalizar el proceso todos los instrumentos desinfectados se enjuagan, secan y guardan correctamente. 
-              .tarjeta-numerada.color-primario.p-5.mb-4
+              .tarjeta-numerada.color-primario.px-5.pb-3(style='padding-top: 30px;')
                 .tarjeta-numerada__numero
                   .h1 d
                 p.mb-0 Las paredes, techos y pisos enchapados se deberán lavar y desinfectar después de cada jornada de trabajo, sin embargo, si el cuerpo embalsamado padeció de alguna enfermedad infectocontagiosa, estos deberán lavarse de inmediato.
@@ -842,12 +853,202 @@
               figure.mb-2
                   img.mx-auto(src='@/assets/curso/tema2/img37.svg', alt='imagen ambiental', style='width540px;')
 
+    p.mb-4 Actualmente los 
+      b(style="color: #008F85;")  productos químicos 
+      b  desinfectantes comerciales en su mayoría ya vienen preparados para ser usados directamente en las concentraciones apropiadas, aunque en algunos casos es necesario manipularlos para prepararlos en diferentes concentraciones al ser diluido la sustancia desinfectante madre;
+      b-none pero usted se estará preguntando
+      b(style="color: #D93328;") ¿qué es una dilución? 
+      b-none Esta se caracteriza por la reducción de la concentración de un agente químico; también se puede decir que indica la proporción del elemento concentrado con respecto al total. 
+      b  Por ejemplo, 
+      b-none en una dilución 1:10 se refiere a que habrá ́ una parte del desinfectante puro por cada 10 de mezcla final. 
+      b  Al realizar estas diluciones se deben tener en cuenta las siguientes medidas de seguridad: 
+
+
+    figure.mb-5
+      img.mx-auto(src='@/assets/curso/tema2/img38.svg', alt='imagen medidas de seguridad a tener en cuenta en la dilución', style='')
+
+    p.mb-4 Reconocidas las 
+      b  medidas de seguridad 
+      b-none en la dilución se presentan a continuación los procedimientos de limpieza de los instrumentos y elementos utilizados en el embalsamamiento. Este proceso garantizará que las 
+      b  técnicas de asepsia y desinfección 
+      b-none reduzcan el riesgo de contagio ocasionado por los 
+      b agentes patógenos que pudiesen estar alojados en los diferentes instrumentos, insumos y elementos. 
+      //b-none(style="color: #D93328;")
     
-    
-    
-    
-    
-    
+    .row.justify-content-center.fondo-bg3
+      .col-md-12.px-md-5
+        .row.justify-content-center
+          .col-lg-5.mb-5
+            figure
+              img.mx-auto(src='@/assets/curso/tema2/img39.svg', alt='imagen ambiental', style='width: 392px;')
+          .col-lg-7.mb-5
+            ul.lista-ul
+              li 
+                i.fas.fa-biohazard
+                p.mb-0 Respetar sin falta las recomendaciones e instrucciones del fabricante.
+              li 
+                i.fas.fa-biohazard
+                p.mb-0 Uso obligatorio de los elementos de protección personal. 
+              li 
+                i.fas.fa-biohazard
+                p.mb-0 Uso de recipientes adecuados para cada químico.
+              li 
+                i.fas.fa-biohazard
+                p.mb-0 Diluir con agua fría, agregándoles lentamente y mezclandolos constantemente. Siempre verificando la reactividad que presentan con el agua. 
+              li 
+                i.fas.fa-biohazard
+                p.mb-0 Mantener los envases debidamente cerrados.
+              li 
+                i.fas.fa-biohazard
+                p.mb-0 Realizar las mezclas en lugares con buena ventilación.
+              li 
+                i.fas.fa-biohazard
+                p.mb-0 No mezclar productos diferentes.
+        .row.justify-content-center.mb-5
+          .col-12.mb-0
+            p.mb-0 Para la 
+              b realización y aplicación de procesos de limpieza y desinfección 
+              b-none es necesario contar con utensilios y materiales que faciliten esta labor. Por ello se debe 
+              b  comprobar periódicamente los stocks de existencias almacenadas 
+              b-none y así 
+              b(style="color: #008F85;")  evitar que estos procesos no se realicen adecuadamente 
+              b-none  por falta de algún tipo de material o utensilio, entre estos encontramos: 
+            
+        .row.justify-content-center.mb-2
+          .col-lg-7.mb-5
+            ul.lista-ul
+              li 
+                i.fas.fa-biohazard
+                p.mb-0 Agua.
+              li 
+                i.fas.fa-biohazard
+                p.mb-0 Bolsas de basura.
+              li 
+                i.fas.fa-biohazard
+                p.mb-0 Botellas con dosificadores.
+              li 
+                i.fas.fa-biohazard
+                p.mb-0 Botellas con pulverizadores.
+              li 
+                i.fas.fa-biohazard
+                p.mb-0 Carro para el transporte de basura.
+              li 
+                i.fas.fa-biohazard
+                p.mb-0 Detergente neutro.
+              li 
+                i.fas.fa-biohazard
+                p.mb-0 Detergente/desinfectante.
+              li 
+                i.fas.fa-biohazard
+                p.mb-0 Escoba y trapero.
+              li 
+                i.fas.fa-biohazard
+                p.mb-0 Estropajos destinados para un uso concreto.
+              li 
+                i.fas.fa-biohazard
+                p.mb-0 Guantes de goma.
+              li 
+                i.fas.fa-biohazard
+                p.mb-0 Hipoclorito de sodio (se agrega a la lista ya que es el desinfectante comúnmente más usado).
+              li 
+                i.fas.fa-biohazard
+                p.mb-0 Paño absorbente.
+              li 
+                i.fas.fa-biohazard
+                p.mb-0 Papel secante.
+              li 
+                i.fas.fa-biohazard
+                p.mb-0 Recipientes adecuados.
+            
+          .col-lg-5.mb-5
+            figure
+              img.mx-auto(src='@/assets/curso/tema2/img40.svg', alt='imagen ambiental', style='width: 430px;')
+        
+        .row.justify-content-around.fondo4.mb-5(style="border-radius: 8px;")
+          .col-md-2.col-sm-1
+            //vacio
+          .col-lg-6.py-md-5
+            .row.justify-content-center
+              .col-auto.align-self-center
+                figure
+                  img.mx-auto(src='@/assets/curso/img-intro1.svg', alt='imagen ambiental', style='width: 110px;')
+              .col.align-self-center
+                p.mb-0 Todo
+                  b embalsamador 
+                  b-none deberá seguir una lista de métodos de 
+                  b(style="color: #008F85;") control de infecciones,
+                  b-none que no solo lo incluirán, sino que también tendrá que prestar atención a su lugar y herramientas de trabajo.
+                  
+                  
+    .row.justify-content-center.mb-2
+          .col-auto.mb-5.px-md-1
+            .tarjeta.tarjeta-container-Larga(style='height:347px; width:238px; box-shadow: 0 0 15px rgba(0,0,0,.3)')
+              .tarjeta-larga2
+                .tarjetaLarga-basic1(style='height:347px; width:238px;')
+                  .tarjetaImgL(style='height:347px; width:238px;')
+                    figure.mb-3
+                      img.mx-auto(src="@/assets/curso/tema2/img41.jpg", alt="imagen ambiental", style="width:238px;")
+                    .px-3
+                      .bg-num1
+                          p.pb-5 Conocer y distinguir los signos de las enfermedades infecciosas más comunes para tomar las precauciones adecuadas según cada caso de embalsamamiento.
+          
+          .col-auto.mb-5.px-md-1
+            .tarjeta.tarjeta-container-Larga(style='height:347px; width:238px; box-shadow: 0 0 15px rgba(0,0,0,.3)')
+              .tarjeta-larga1
+                .tarjetaLarga-basic1(style='height:347px; width:238px;')
+                  .tarjetaImgL(style='height:347px; width:238px;')
+                    figure.mb-3
+                      img.mx-auto(src="@/assets/curso/tema2/img42.jpg", alt="imagen ambiental", style="width:238px;")
+                    .px-3
+                      .bg-num2.pb-5
+                          p.pb-5 Evitar contacto directo con lesiones dudosas.
+                
+          .col-auto.mb-5.px-md-1
+            .tarjeta.tarjeta-container-Larga(style='height:347px; width:238px; box-shadow: 0 0 15px rgba(0,0,0,.3)')
+              .tarjeta-larga2
+                .tarjetaLarga-basic1(style='height:347px; width:238px;')
+                  .tarjetaImgL(style='height:347px; width:238px;')
+                    figure.mb-3
+                      img.mx-auto(src="@/assets/curso/tema2/img43.jpg", alt="imagen ambiental", style="width:238px;")
+                    .px-3
+                      .bg-num3 
+                          p.pb-5 Uso de elementos desechables (gorro, guantes y delantal) preferiblemente el pijama antifluido para ser usado específicamente en el laboratorio de tanatopraxia. 
+                
+          .col-auto.mb-5.px-md-1
+            .tarjeta.tarjeta-container-Larga(style='height:347px; width:238px; box-shadow: 0 0 15px rgba(0,0,0,.3)')
+              .tarjeta-larga1
+                .tarjetaLarga-basic1(style='height:347px; width:238px;')
+                  .tarjetaImgL(style='height:347px; width:238px;')
+                    figure.mb-3
+                      img.mx-auto(src="@/assets/curso/tema2/img44.jpg", alt="imagen ambiental", style="width:238px;")
+                    .px-3
+                      .bg-num4 
+                          p.pb-5 Uso de los elementos de protección personal tales como, guantes, máscaras faciales y protección ocular. 
+                
+          .col-auto.mb-5.px-md-1
+            .tarjeta.tarjeta-container-Larga(style='height:347px; width:238px; box-shadow: 0 0 15px rgba(0,0,0,.3)')
+              .tarjeta-larga2
+                .tarjetaLarga-basic1(style='height:347px; width:238px;')
+                  .tarjetaImgL(style='height:347px; width:238px;')
+                    figure.mb-3
+                      img.mx-auto(src="@/assets/curso/tema2/img45.jpg", alt="imagen ambiental", style="width:238px;")
+                    .px-3
+                      .bg-num5.pb-5
+                          p.pb-5 Uso de jabón antibacterial.
+                
+    .cajon.color-secundario.p-4.mb-4
+      p.mb-0 Para concluir, se reitera la 
+        b(style="color: #008F85;") importancia de los procesos de limpieza y desinfección 
+        b  como una medida que reduce los agentes patógenos albergados en los materiales e instrumentos. 
+        b-none Una 
+        b ventaja de la realización de los procesos y procedimientos 
+        b-none anteriormente descritos es el 
+        b cuidado de la salud pública y la preparación del cadáver para la 
+        b(style="color: #008F85;") preservación química y la tanatoestética. 
+
+
+
+
 
 </template>
 
@@ -858,28 +1059,52 @@ export default {
     // variables de vue
     datosLineaTiempoB: [
       {
-        titulo: '01 de marzo',
+        titulo: 'Virus medianos',
         texto:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tellus augue, pulvinar ac auctor at, pellentesque id diam. Praesent maximus, felis sollicitudin pharetra vestibulum, turpis tortor tincidunt augue, in efficitur urna diam eleifend magna.',
-        icono: require('@/assets/componentes/ej-05.svg'),
+          'Dentro de ellos están los rotavirus que infecta el recubrimiento interno de los intestinos.',
+        icono: require('@/assets/curso/tema2/icon2.svg'),
       },
       {
-        titulo: '02 de marzo',
+        titulo: 'Bacterias vegetativas',
         texto:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tellus augue, pulvinar ac auctor at, pellentesque id diam. Praesent maximus, felis sollicitudin pharetra vestibulum, turpis tortor tincidunt augue, in efficitur urna diam eleifend magna.',
-        icono: require('@/assets/componentes/ej-05.svg'),
+          'En este grupo está la salmonella, bacteria que frecuentemente da origen a enfermedades causadas por los alimentos, también conocidas como “intoxicaciones alimentarias”.',
+        icono: require('@/assets/curso/tema2/icon3.svg'),
       },
       {
-        titulo: '03 de marzo',
+        titulo: 'Hongos en formas vegetativas',
         texto:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tellus augue, pulvinar ac auctor at, pellentesque id diam. Praesent maximus, felis sollicitudin pharetra vestibulum, turpis tortor tincidunt augue, in efficitur urna diam eleifend magna.',
-        icono: require('@/assets/componentes/ej-05.svg'),
+          'Estos están constituidos por filamentos pluricelulares denominados hifas.',
+        icono: require('@/assets/curso/tema2/icon4.svg'),
       },
       {
-        titulo: '04 de marzo',
+        titulo: 'Virus pequeños',
         texto:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tellus augue, pulvinar ac auctor at, pellentesque id diam. Praesent maximus, felis sollicitudin pharetra vestibulum, turpis tortor tincidunt augue, in efficitur urna diam eleifend magna.',
-        icono: require('@/assets/componentes/ej-05.svg'),
+          'Estos están constituidos por filamentos pluricelulares denominados hifas.',
+        icono: require('@/assets/curso/tema2/icon5.svg'),
+      },
+      {
+        titulo: 'Esporas de hongos',
+        texto:
+          'Un caso de ellas son los oomicetos (Oomycetes u Oomycota) son un grupo de protistas.',
+        icono: require('@/assets/curso/tema2/icon6.svg'),
+      },
+      {
+        titulo: 'Mycobacterias bacilo de la tuberculosis ',
+        texto:
+          'Son bacterias que fácilmente  se propogan y atacan los pulmones de las personas.',
+        icono: require('@/assets/curso/tema2/icon7.svg'),
+      },
+      {
+        titulo: 'Esporas bacterianas',
+        texto:
+          'Dentro de ellas está la clostridium, se caracterizan por ser una bacteria grampositiva, anaerobia estricta y formadora de esporas.',
+        icono: require('@/assets/curso/tema2/icon8.svg'),
+      },
+      {
+        titulo: 'Priones',
+        texto:
+          'Son los agentes causantes de un grupo de patologías neurodegenerativas letales.',
+        icono: require('@/assets/curso/tema2/icon9.svg'),
       },
     ],
   }),
