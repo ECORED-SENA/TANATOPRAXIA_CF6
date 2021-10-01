@@ -66,13 +66,25 @@
   background-image: url(../assets/curso/tema2/fondo-bg4.png)
   background-size: cover
   background-repeat: no-repeat
-  background-position: bottom center
+  background-position: center
   margin-inline: -3.4rem
 .fondo-bg5
   background-image: url(../assets/curso/tema2/fondo-bg5.png)
   background-size: cover
   background-repeat: no-repeat
+  background-position: top
+  margin-inline: -3.4rem
+.fondo-bg6
+  background-image: url(../assets/curso/tema2/fondo-bg6.png)
+  background-size: cover
+  background-repeat: no-repeat
   background-position: center
+  margin-inline: -3.4rem
+.fondo-bg7
+  background-image: url(../assets/curso/tema2/fondo-bg7.png)
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: top
   margin-inline: -3.4rem
 
 
@@ -181,6 +193,20 @@ $tarjeta-dimension-height4: 405px
   background-size: auto
   background-repeat: no-repeat
   background-position: right
+.bg-line4
+  box-shadow: 0px 0px 8px 0px #DEDEDE
+  border-radius: 10px
+  background-image: url(../assets/curso/tema2/line4.svg)
+  background-size: auto
+  background-repeat: no-repeat
+  background-position: right
+.bg-line5
+  box-shadow: 0px 0px 8px 0px #DEDEDE
+  border-radius: 10px
+  background-image: url(../assets/curso/tema2/line5.svg)
+  background-size: auto
+  background-repeat: no-repeat
+  background-position: right
 //TARJETAS AVATAR CON BORDE
 .verticalText 
   writing-mode: vertical-lr
@@ -192,10 +218,49 @@ $tarjeta-dimension-height4: 405px
 .tabla-a thead 
     border-top: 0px solid
     
+.tabs-a__tab 
+  background-color: #E8E8E8
+
+.tarjeta.color-secundario--borde 
+  border: solid 2px #1D272B
+
+.cajon-b.abajo-derecha:before 
+  left: 15%
+.cajon-b:before 
+  right: 14%
   
+.tarjeta-fondito 
+    background-image: url(../assets/curso/fondo-banner.png)
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+
+//tarjeta numerada
+.tarjeta-numerada.color-primario .tarjeta-numerada__numero div
+  color: $color-sistema-texto
+
+.tarjeta-numerada.color-primario
+  border-top: 0 
+  border-bottom: 0
+  border-radius: 0
+  border-left: 0
+  border-right: 0
+
+.tarjeta-numerada.color-primario .tarjeta-numerada__numero
+  background-color: white
+  border: 3px solid #008F85
+
+
+//end tarjeta numerada
+
+
+
+@media screen and ( max-width: 991px) 
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    top: 102%
 
 @media screen and ( max-width: 576px) 
-  .fondo-bg, .fondo-bg2, .fondo-bg3, .fondo-bg4, .fondo-bg5
+  .fondo-bg, .fondo-bg2, .fondo-bg3, .fondo-bg4, .fondo-bg5, .fondo-bg6, .fondo-bg7
     //margin-inline: 1.4rem
     margin-inline: 0rem
   .fondo-intro, .fondo1, .fondo2, .fondo3

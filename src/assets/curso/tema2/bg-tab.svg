@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="727" height="250" viewBox="0 0 727 250">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f6f6f7"/>
+      <stop offset="0.477" stop-color="#f9f9fa"/>
+      <stop offset="0.715" stop-color="#fff"/>
+    </radialGradient>
+  </defs>
+  <g id="bg-tab" stroke="#1d272b" stroke-linecap="round" stroke-width="1" fill="url(#radial-gradient)">
+    <rect width="727" height="250" rx="10" stroke="none"/>
+    <rect x="0.5" y="0.5" width="726" height="249" rx="9.5" fill="none"/>
+  </g>
+</svg>
