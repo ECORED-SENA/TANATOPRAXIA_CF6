@@ -132,7 +132,7 @@ export default {
         'Conjunto de procesos que tiene como objetivo impedir la penetración y proliferación de los agentes patógenos en el sitio que no los contenga.',
     },
     {
-      termino: 'SufDesinfección primariatware',
+      termino: 'Desinfección primaria',
       //terminoHtml: '<em>Suftware</em>',
       significado:
         'Procesos de desinfección realizados al cadáver antes del proceso de embalsamamiento, incluye la desinfección tópica y el lavado del cadáver.',
@@ -145,6 +145,11 @@ export default {
     {
       termino: 'Desinfección terminal',
       //terminoHtml: '<em>Áectores</em>',
+      significado:
+        'Es la limpieza y desinfección del cadáver, instrumentos y el laboratorio de embalsamamiento luego de terminado el proceso de embalsamar el cadáver.',
+    },
+    {
+      termino: 'Descontaminación',
       significado:
         'Es el uso de medios físicos, químicos u otros para realizar la eliminación o destrucción de los microorganismos patógenos de una superficie.',
     },
@@ -276,12 +281,13 @@ export default {
         centro:
           'Centro de Comercio y Servicios - Regional Tolima',
       },
+      */
       {
-        nombre: '',
+        nombre: 'María camila Ovalle Ospina ',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },*/
+      },
     ],
     gestoresRepositorio: [
       {

@@ -78,7 +78,7 @@
 
     .row.justify-content-center.mb-2.fondo-bg2
       .col-lg-12.px-md-5
-        .row.justify-content-center
+        .row.justify-content-center.mb-4
           .col-auto.mb-4.px-2
             .tarjeta.tarjeta-container-Larga.tarjeta-larga2
               .tarjetaLarga-basic1
@@ -123,6 +123,14 @@
                         h4.mb-2 Elementos de protección personal
                         p.pb-5 Son un conjunto de mecanismos y accesorios externos que generan una barrera entre un riesgo y la salud de una persona.
                         
+        .row.justify-content-center.mb-5
+          .col-auto
+            p.mb-0
+              b La aplicación de asepsia y técnicas de asepsia ayudan indudablemente a romper el ciclo de transmisión infecciosa 
+              b-none de los agentes patógenos, por ello siempre que se realice la 
+              b(style="color: #008F85;") descontaminación del instrumental usado en el proceso de embalsamamiento 
+              b-none se deben de aplicar los siguientes pasos fundamentales:
+          
         .row.justify-content-center
           .col-lg-10
             LineaTiempoD.color-primario
@@ -316,6 +324,9 @@
                                   li 
                                     i.fas.fa-biohazard
                                     p.mb-0 Necesita recipientes especiales y tiempo para airearse una vez culminado el ciclo.
+                                  li 
+                                    i.fas.fa-biohazard
+                                    p.mb-0 Incapaz de desactivar priones.
                             tr(style='border-bottom: solid 2px #12263F')
                               td.text-center(style='border-right: solid 2px #12263F') Ozono 
                               td(style='border-right: solid 2px #12263F')

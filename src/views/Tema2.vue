@@ -145,7 +145,7 @@
                           p.mb-0 Tensioactivos ani&oacute;nicos.
                         li 
                           i.fas.fa-biohazard
-                          p.mb-0 Fenol y sus derivados
+                          p.mb-0 Fenol y sus derivados.
                         li 
                           i.fas.fa-biohazard
                           p.mb-0 Biguanidas.
@@ -231,7 +231,7 @@
           p.mb-5 
             b Un 
             b(style="color: #008F85;") desinfectante 
-            bdebe contar con ciertas cualidades 
+            b debe contar con ciertas cualidades 
             b-none para ser 
             b(style="color: #008F85;") catalogado como un buen producto, 
             b-none entre ellas son: 
@@ -556,13 +556,13 @@
     .row.justify-content-center.mb-4.fondo-bg7
       .col-lg-12.px-md-5
         .row.justify-content-center.mb-4
-          .col-md-auto
+          .col-md-auto.align-self-center.mb-2
             figure
               img.mx-auto(src="@/assets/curso/tema2/img21.svg", alt="imagen ambiental", style="width:185px;")
-          .col
-            TabsA.color-primario.mb-5
+          .col.align-self-center.mb-2
+            TabsA.color-primario.mb-0
               
-              .tarjeta.color-secundario--borde.p-4(titulo="PASO 1: Inmersión")
+              .tarjeta.color-secundario--borde.p-4(titulo="Inmersión")
                 .row
                   .col-xl-6.align-self-center
                     h3 Inmersión
@@ -572,7 +572,7 @@
                       img(src='@/assets/curso/tema2/img22.png', alt='Texto que describa la imagen')
                       
                       
-              .tarjeta.color-secundario--borde.p-4(titulo="PASO 2: Loción")
+              .tarjeta.color-secundario--borde.p-4(titulo="Loción")
                 .row
                   .col-xl-6.align-self-center
                     h3 Loción
@@ -582,7 +582,7 @@
                       img(src='@/assets/curso/tema2/img23.png', alt='Texto que describa la imagen')
                       
                       
-              .tarjeta.color-secundario--borde.p-4(titulo="PASO 3: Pulverización")
+              .tarjeta.color-secundario--borde.p-4(titulo="Pulverización")
                 .row
                   .col-xl-6.align-self-center
                     h3 Pulverización
@@ -592,7 +592,7 @@
                       img(src='@/assets/curso/tema2/img24.png', alt='Texto que describa la imagen')
                       
                       
-              .tarjeta.color-secundario--borde.p-4(titulo="PASO 4: Fumigación y aerosoles")
+              .tarjeta.color-secundario--borde.p-4(titulo="Fumigación y aerosoles")
                 .row
                   .col-xl-6.align-self-center
                     h3 Fumigación y aerosoles
@@ -609,7 +609,7 @@
 
     separador
     #t_2_1.titulo-segundo
-      .h2 2.1 Proceso de desinfección del cadáver.
+      .h2 2.1 Proceso de desinfección del cadáver
     
     .bloque-texto-a.color-primario.p-4.p-md-5.mb-5 
       .row.m-0.align-items-center.justify-content-between
@@ -633,8 +633,8 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       
     p.mb-4 Para concluir, se determina que los 
-      b desinfectantes tópicos se utilizan para realizar la higienización
-      b-none de la piel, cabello, orificios externos del cadáver y en algunos casos los tejidos expuestos como resultados de autopsias, traumas o donación de órganos.
+      b desinfectantes tópicos se utilizan para realizar la higienización 
+      b-none de la piel, cabello, orificios externos del cadáver y en algunos casos los tejidos expuestos como resultados de autopsias, traumas o donación de órganos. 
       b(style="color: #008F85;") No olvide realizar la desinfección de bolsas, dispositivos médicos, instrumental, mesas para embalsamar y demás equipos. 
     
     
@@ -644,7 +644,7 @@
       .col-md-12.px-md-5
         .row.justify-content-center.mb-5
           #t_2_2.titulo-segundo
-            .h2 2.2 Desinfección según patologías.
+            .h2 2.2 Desinfección según patologías
           
           p.mb-5 En caso tal que exista una
             b  patología asociada a la causa de muerte 
@@ -681,7 +681,7 @@
                       h3.mb-4 Síndrome de Inmunodeficiencia adquirido (SIDA)
                       p.mb-4 Esta enfermedad implica para el tanatopractor una exposición por la asociación de este con la sangre y fluidos del cuerpo. Se recomienda el uso de guantes de nitrilo, mascarilla, cubre ojos y especialmente realizar un proceso de desinfección adecuada tanto del cadáver como de los elementos e insumos utilizados durante el procedimiento de embalsamamiento, siguiendo las indicaciones del manual del fabricante. 
                       .cajon-b.color-primario.abajo-derecha.p-0.mb-2
-                        p.mb-0 El virus del SIDA es frágil y puede ser controlado fácilmente, este se activará luego de un tratamiento de 10 minutos con hipoclorito de sodio al 10%, 50% de alcohol etílico, 35% de alcohol isopropilico, 1% de surfactante no iónico, 0.5% de lysol, 0.5% de paraformaldehido o 0.3% peróxido de hidrógeno. También se podrá desactivar el virus por el uso del calor a una temperatura mayor de 56 grados por 10 minutos. 
+                        p.mb-0 El viru s del SIDA es frágil y puede ser controlado fácilmente, este se activará luego de un tratamiento de 10 minutos con hipoclorito de sodio al 10%, 50% de alcohol etílico, 35% de alcohol isopropilico, 1% de surfactante no iónico, 0.5% de lysol, 0.5% de paraformaldehido o 0.3% peróxido de hidrógeno. También se podrá desactivar el virus por el uso del calor a una temperatura mayor de 56 grados por 10 minutos. 
                   
                     .col-md-5.align-self-center
                       figure.mb-2
@@ -818,7 +818,7 @@
         .row.justify-content-center.mb-5
           separador
           #t_2_3.titulo-segundo
-            .h2 2.3 Desinfección de los elementos e insumos.
+            .h2 2.3 Desinfección de los elementos e insumos
           
           p.mb-4 Para realizar la 
             b  desinfección de los insumos, instrumentos y equipos usados en el 
@@ -860,14 +860,14 @@
       b(style="color: #D93328;") ¿qué es una dilución? 
       b-none Esta se caracteriza por la reducción de la concentración de un agente químico; también se puede decir que indica la proporción del elemento concentrado con respecto al total. 
       b  Por ejemplo, 
-      b-none en una dilución 1:10 se refiere a que habrá ́ una parte del desinfectante puro por cada 10 de mezcla final. 
+      b-none en una dilución 1:10 se refiere a que habrá ́una parte del desinfectante puro por cada 10 de mezcla final. 
       b  Al realizar estas diluciones se deben tener en cuenta las siguientes medidas de seguridad: 
 
 
     figure.mb-5
       img.mx-auto(src='@/assets/curso/tema2/img38.svg', alt='imagen medidas de seguridad a tener en cuenta en la dilución', style='')
 
-    p.mb-4 Reconocidas las 
+    p.mb-5 Reconocidas las 
       b  medidas de seguridad 
       b-none en la dilución se presentan a continuación los procedimientos de limpieza de los instrumentos y elementos utilizados en el embalsamamiento. Este proceso garantizará que las 
       b  técnicas de asepsia y desinfección 
@@ -878,10 +878,10 @@
     .row.justify-content-center.fondo-bg3
       .col-md-12.px-md-5
         .row.justify-content-center
-          .col-lg-5.mb-5
+          .col-lg-5.mb-5.align-self-center
             figure
-              img.mx-auto(src='@/assets/curso/tema2/img39.svg', alt='imagen ambiental', style='width: 392px;')
-          .col-lg-7.mb-5
+              img.mx-auto(src='@/assets/curso/tema2/img39.svg', alt='imagen ambiental', style='width: 380px;')
+          .col-lg-7.mb-5.align-self-center
             ul.lista-ul
               li 
                 i.fas.fa-biohazard
@@ -909,7 +909,7 @@
             p.mb-0 Para la 
               b realización y aplicación de procesos de limpieza y desinfección 
               b-none es necesario contar con utensilios y materiales que faciliten esta labor. Por ello se debe 
-              b  comprobar periódicamente los stocks de existencias almacenadas 
+              b  comprobar periódicamente los <i>stocks</i> de existencias almacenadas 
               b-none y así 
               b(style="color: #008F85;")  evitar que estos procesos no se realicen adecuadamente 
               b-none  por falta de algún tipo de material o utensilio, entre estos encontramos: 
@@ -1079,7 +1079,7 @@ export default {
       {
         titulo: 'Virus pequeños',
         texto:
-          'Estos están constituidos por filamentos pluricelulares denominados hifas.',
+          'Un virus alusivo a esta categoría es el hepatitis A, que se encuentra en las heces y sangre de una persona infectada.',
         icono: require('@/assets/curso/tema2/icon5.svg'),
       },
       {
