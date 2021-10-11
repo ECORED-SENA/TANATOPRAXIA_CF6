@@ -468,7 +468,7 @@
             b-none porque existen innumerables factores que influyen en este efecto. Empezando por:  
         
         .row.justify-content-around.mb-5
-          .col-lg-4
+          .col-9.col-lg-4
             figure.mb-3
               img.mx-auto(src="@/assets/curso/tema2/img19.svg", alt="agentes químicos desinfectantes", style="width:340px;")
           .col-lg-7
@@ -508,7 +508,7 @@
               b conservación de la integridad del personal directamente involucrado, sus compañeros de trabajo y su entorno. 
               b-none Para cumplir con lo anterior se sugieren las siguientes acciones:
         
-        .row.justify-content-center.mb-5
+        .row.justify-content-center.mb-4.mb-lg-5
           .col-lg-7.mb-2.align-self-center
             ul.lista-ul.ms-md-4
               li 
@@ -541,7 +541,7 @@
               li 
                 i.fas.fa-biohazard
                 p.mb-0 Uso de los productos sobre superficies y material inanimado.
-          .col-lg-5.mb-2
+          .col-8.col-lg-5.mb-0.mb-lg-2
             figure
               img.mx-auto(src="@/assets/curso/tema2/img20.svg", alt="imagen ambiental", style="width:420px;")
     
@@ -649,7 +649,7 @@
           p.mb-5 En caso tal que exista una
             b  patología asociada a la causa de muerte 
             b-none es importante que 
-            b(style="color: #008F85;") el tanatopractor
+            b(style="color: #008F85;") el tanatopractor 
             b-none la conozca antes de realizar el
             b(style="color: #008F85;")  proceso de embalsamamiento. 
             b-none  Existen casos en los que algunos individuos mueren a causa de accidentes, homicidios y suicidios; pero en algunos casos no será así y 
@@ -657,7 +657,7 @@
             b(style="color: #008F85;") enfermedad infectocontagiosa.
           
           .row.justify-content-center.mb-4
-            .col-lg-4.mb-4
+            .col-10.col-lg-4.mb-4
               figure
                 img.mx-auto(src='@/assets/curso/tema2/img27.svg', alt='imagen ambiental', style="width: 330px;")
             .col-lg-8.mb-4.align-self-center
@@ -774,10 +774,10 @@
                   img.mx-auto(src='@/assets/curso/tema2/img36.svg', alt='imagen ambiental', style='width:120px;')
               .col-12
                 p.mb-4 
-                  b El uso adecuado de los esterilizantes, desinfectantes y procesos de limpieza minimiza el riesgo de infección al personal funerario.
+                  b El uso adecuado de los esterilizantes, desinfectantes y procesos de limpieza minimiza el riesgo de infección al personal funerario. 
                   b-none El control de la infección envuelve al agente microbiano, el huésped y el ambiente. Existen 
-                  b procedimientos comunes para realizar los procedimientos anteriormente mencionados que
-                  b(style="color: #008F85;") matan o inactivan los agentes patógenos,
+                  b procedimientos comunes para realizar los procedimientos anteriormente mencionados que 
+                  b(style="color: #008F85;") matan o inactivan los agentes patógenos, 
                   b-none estos son:
           .col-lg-6.mb-4 
             .tarjeta-avatar-b.mb-2
@@ -849,18 +849,18 @@
                   .h1 d
                 p.mb-0 Las paredes, techos y pisos enchapados se deberán lavar y desinfectar después de cada jornada de trabajo, sin embargo, si el cuerpo embalsamado padeció de alguna enfermedad infectocontagiosa, estos deberán lavarse de inmediato.
 
-            .col-lg-5.mb-4
+            .col-10.col-lg-5.mb-0.mb-md-4
               figure.mb-2
                   img.mx-auto(src='@/assets/curso/tema2/img37.svg', alt='imagen ambiental', style='width540px;')
 
     p.mb-4 Actualmente los 
       b(style="color: #008F85;")  productos químicos 
-      b  desinfectantes comerciales en su mayoría ya vienen preparados para ser usados directamente en las concentraciones apropiadas, aunque en algunos casos es necesario manipularlos para prepararlos en diferentes concentraciones al ser diluido la sustancia desinfectante madre;
-      b-none pero usted se estará preguntando
+      b  desinfectantes comerciales en su mayoría ya vienen preparados para ser usados directamente en las concentraciones apropiadas, aunque en algunos casos es necesario manipularlos para prepararlos en diferentes concentraciones al ser diluido la sustancia desinfectante madre; 
+      b-none pero usted se estará preguntando 
       b(style="color: #D93328;") ¿qué es una dilución? 
       b-none Esta se caracteriza por la reducción de la concentración de un agente químico; también se puede decir que indica la proporción del elemento concentrado con respecto al total. 
       b  Por ejemplo, 
-      b-none en una dilución 1:10 se refiere a que habrá ́una parte del desinfectante puro por cada 10 de mezcla final. 
+      b-none en una dilución 1:10 se refiere a que habrá una parte del desinfectante puro por cada 10 de mezcla final. 
       b  Al realizar estas diluciones se deben tener en cuenta las siguientes medidas de seguridad: 
 
 
@@ -878,10 +878,10 @@
     .row.justify-content-center.fondo-bg3
       .col-md-12.px-md-5
         .row.justify-content-center
-          .col-lg-5.mb-5.align-self-center
+          .col-9.col-lg-5.mb-4.mb-md-5.align-self-center
             figure
               img.mx-auto(src='@/assets/curso/tema2/img39.svg', alt='imagen ambiental', style='width: 380px;')
-          .col-lg-7.mb-5.align-self-center
+          .col-lg-7.mb-4.mb-md-5.align-self-center
             ul.lista-ul
               li 
                 i.fas.fa-biohazard
@@ -904,7 +904,7 @@
               li 
                 i.fas.fa-biohazard
                 p.mb-0 No mezclar productos diferentes.
-        .row.justify-content-center.mb-5
+        .row.justify-content-center.mb-4.mb-lg-5
           .col-12.mb-0
             p.mb-0 Para la 
               b realización y aplicación de procesos de limpieza y desinfección 
@@ -916,51 +916,53 @@
             
         .row.justify-content-center.mb-2
           .col-lg-7.mb-5
-            ul.lista-ul
-              li 
-                i.fas.fa-biohazard
-                p.mb-0 Agua.
-              li 
-                i.fas.fa-biohazard
-                p.mb-0 Bolsas de basura.
-              li 
-                i.fas.fa-biohazard
-                p.mb-0 Botellas con dosificadores.
-              li 
-                i.fas.fa-biohazard
-                p.mb-0 Botellas con pulverizadores.
-              li 
-                i.fas.fa-biohazard
-                p.mb-0 Carro para el transporte de basura.
-              li 
-                i.fas.fa-biohazard
-                p.mb-0 Detergente neutro.
-              li 
-                i.fas.fa-biohazard
-                p.mb-0 Detergente/desinfectante.
-              li 
-                i.fas.fa-biohazard
-                p.mb-0 Escoba y trapero.
-              li 
-                i.fas.fa-biohazard
-                p.mb-0 Estropajos destinados para un uso concreto.
-              li 
-                i.fas.fa-biohazard
-                p.mb-0 Guantes de goma.
-              li 
-                i.fas.fa-biohazard
-                p.mb-0 Hipoclorito de sodio (se agrega a la lista ya que es el desinfectante comúnmente más usado).
-              li 
-                i.fas.fa-biohazard
-                p.mb-0 Paño absorbente.
-              li 
-                i.fas.fa-biohazard
-                p.mb-0 Papel secante.
-              li 
-                i.fas.fa-biohazard
-                p.mb-0 Recipientes adecuados.
-            
-          .col-lg-5.mb-5
+            .row.justify-content-around
+              .col-lg-10
+                ul.lista-ul
+                  li 
+                    i.fas.fa-biohazard
+                    p.mb-0 Agua.
+                  li 
+                    i.fas.fa-biohazard
+                    p.mb-0 Bolsas de basura.
+                  li 
+                    i.fas.fa-biohazard
+                    p.mb-0 Botellas con dosificadores.
+                  li 
+                    i.fas.fa-biohazard
+                    p.mb-0 Botellas con pulverizadores.
+                  li 
+                    i.fas.fa-biohazard
+                    p.mb-0 Carro para el transporte de basura.
+                  li 
+                    i.fas.fa-biohazard
+                    p.mb-0 Detergente neutro.
+                  li 
+                    i.fas.fa-biohazard
+                    p.mb-0 Detergente/desinfectante.
+                  li 
+                    i.fas.fa-biohazard
+                    p.mb-0 Escoba y trapero.
+                  li 
+                    i.fas.fa-biohazard
+                    p.mb-0 Estropajos destinados para un uso concreto.
+                  li 
+                    i.fas.fa-biohazard
+                    p.mb-0 Guantes de goma.
+                  li 
+                    i.fas.fa-biohazard
+                    p.mb-0 Hipoclorito de sodio (se agrega a la lista ya que es el desinfectante comúnmente más usado).
+                  li 
+                    i.fas.fa-biohazard
+                    p.mb-0 Paño absorbente.
+                  li 
+                    i.fas.fa-biohazard
+                    p.mb-0 Papel secante.
+                  li 
+                    i.fas.fa-biohazard
+                    p.mb-0 Recipientes adecuados.
+                
+          .col-9.col-lg-5.mb-4.mb-md-5
             figure
               img.mx-auto(src='@/assets/curso/tema2/img40.svg', alt='imagen ambiental', style='width: 430px;')
         
@@ -973,10 +975,10 @@
                 figure
                   img.mx-auto(src='@/assets/curso/img-intro1.svg', alt='imagen ambiental', style='width: 110px;')
               .col.align-self-center
-                p.mb-0 Todo
+                p.mb-0 Todo 
                   b embalsamador 
                   b-none deberá seguir una lista de métodos de 
-                  b(style="color: #008F85;") control de infecciones,
+                  b(style="color: #008F85;") control de infecciones, 
                   b-none que no solo lo incluirán, sino que también tendrá que prestar atención a su lugar y herramientas de trabajo.
                   
                   
