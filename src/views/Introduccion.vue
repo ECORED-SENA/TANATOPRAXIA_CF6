@@ -22,7 +22,7 @@
                   img.mx-auto(src='@/assets/curso/img-intro1.svg', alt='imagen ambiental', style='width: 110px;')
               .col
                 p.mb-0
-                  b(style="color: #008F85;") Apreciado aprendiz 
+                  b(style="color: #008F85;") Apreciado aprendiz
                   b-none , bienvenido a esta experiencia de aprendizaje pensada desde la 
                   b desinfección del cadáver, de acuerdo con técnicas de asepsia, normas de bioseguridad y salud laboral. 
                   b-none Le sugerimos observar el siguiente recurso educativo para obtener información antes de iniciar su aprendizaje. 

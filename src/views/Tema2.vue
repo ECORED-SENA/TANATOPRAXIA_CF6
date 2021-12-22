@@ -289,7 +289,7 @@
                 .tarjeta.bg-line2(style="background-color: rgb(255, 255, 255); align-self: center; border-radius:8px;")
                   .p-4
                     h4.mb-2 El alcohol etílico o etanol 
-                    p.mb-0 Se emplea tópicamente sobre la piel como antiséptico a una concentración del 70% p/v (a 100% de pureza es poco efectivo). Se emplea en desinfección de instrumentos quirúrgicos, siempre que se deje el tiempo suficiente de contacto. 
+                    p.mb-0 Se emplea tópicamente sobre la piel como antiséptico a una concentración del 70 % p/v (a 100 % de pureza es poco efectivo). Se emplea en desinfección de instrumentos quirúrgicos, siempre que se deje el tiempo suficiente de contacto. 
                 
               .tarjeta-avatar-b.mb-4
                 .tarjeta-avatar-b__img
@@ -423,7 +423,7 @@
                     .px-3
                       .bg-num1
                           h4.mb-2 Yodoforos
-                          p.pb-5 En una dilución de 1% durante al menos 10 minutos o con una concentración entre el 75-200 ppm y realizar la dilución según el manual del fabricante. Ejemplo: betadine, wescodyne, HiSine y losan.
+                          p.pb-5 En una dilución de 1 % durante al menos 10 minutos o con una concentración entre el 75-200 ppm y realizar la dilución según el manual del fabricante. Ejemplo: betadine, wescodyne, HiSine y losan.
           
           .col-auto.mb-5.px-2
             .tarjeta.tarjeta-container-Larga(style='height:470px; box-shadow: 0 0 15px rgba(0,0,0,.3)')
@@ -435,7 +435,7 @@
                     .px-3
                       .bg-num2
                           h4.mb-2 Fenoles y sus derivados
-                          p.pb-5 Con una concentración entre el 0.5- 3% y usarse al menos durante 10 minutos y seguir las indicaciones de manufactura. No están recomendados para uso en instrumentos o superficies duras, tal como la mesa de preparación. Ejemplo: Amphyl y Staphene.
+                          p.pb-5 Con una concentración entre el 0.5- 3 % y usarse al menos durante 10 minutos y seguir las indicaciones de manufactura. No están recomendados para uso en instrumentos o superficies duras, tal como la mesa de preparación. Ejemplo: Amphyl y Staphene.
                 
           .col-auto.mb-5.px-2
             .tarjeta.tarjeta-container-Larga(style='height:470px; box-shadow: 0 0 15px rgba(0,0,0,.3)')
@@ -459,7 +459,7 @@
                     .px-3
                       .bg-num4
                           h4.mb-2 Aldehídos
-                          p.pb-5 Como el glutaraldehído en una concentración del 2% por un espacio de uso de 10 minutos o según las especificaciones del fabricante. Ejemplo: Cidex, Sonacide y Sporicidin.
+                          p.pb-5 Como el glutaraldehído en una concentración del 2 % por un espacio de uso de 10 minutos o según las especificaciones del fabricante. Ejemplo: Cidex, Sonacide y Sporicidin.
                           
         .row.justify-content-center.mb-5
           p.mb-2 También se debe de resaltar que todo uso de 
@@ -681,7 +681,7 @@
                       h3.mb-4 Síndrome de Inmunodeficiencia adquirido (SIDA)
                       p.mb-4 Esta enfermedad implica para el tanatopractor una exposición por la asociación de este con la sangre y fluidos del cuerpo. Se recomienda el uso de guantes de nitrilo, mascarilla, cubre ojos y especialmente realizar un proceso de desinfección adecuada tanto del cadáver como de los elementos e insumos utilizados durante el procedimiento de embalsamamiento, siguiendo las indicaciones del manual del fabricante. 
                       .cajon-b.color-primario.abajo-derecha.p-0.mb-2
-                        p.mb-0 El viru s del SIDA es frágil y puede ser controlado fácilmente, este se activará luego de un tratamiento de 10 minutos con hipoclorito de sodio al 10%, 50% de alcohol etílico, 35% de alcohol isopropilico, 1% de surfactante no iónico, 0.5% de lysol, 0.5% de paraformaldehido o 0.3% peróxido de hidrógeno. También se podrá desactivar el virus por el uso del calor a una temperatura mayor de 56 grados por 10 minutos. 
+                        p.mb-0 El virus del SIDA es frágil y puede ser controlado fácilmente, este se activará luego de un tratamiento de 10 minutos con hipoclorito de sodio al 10 %, 50 % de alcohol etílico, 35 % de alcohol isopropílico, 1 % de surfactante no iónico, 0.5 % de lysol, 0.5 % de paraformaldehído o 0.3 % peróxido de hidrógeno. También se podrá desactivar el virus por el uso del calor a una temperatura mayor de 56 grados por 10 minutos. 
                   
                     .col-md-5.align-self-center
                       figure.mb-2
@@ -894,7 +894,7 @@
                 p.mb-0 Uso de recipientes adecuados para cada químico.
               li 
                 i.fas.fa-biohazard
-                p.mb-0 Diluir con agua fría, agregándoles lentamente y mezclandolos constantemente. Siempre verificando la reactividad que presentan con el agua. 
+                p.mb-0 Diluir con agua fría, agregándoles lentamente y mezclándolos constantemente. Siempre verificando la reactividad que presentan con el agua. 
               li 
                 i.fas.fa-biohazard
                 p.mb-0 Mantener los envases debidamente cerrados.
@@ -1093,7 +1093,7 @@ export default {
       {
         titulo: 'Mycobacterias bacilo de la tuberculosis ',
         texto:
-          'Son bacterias que fácilmente  se propogan y atacan los pulmones de las personas.',
+          'Son bacterias que fácilmente  se propagan y atacan los pulmones de las personas.',
         icono: require('@/assets/curso/tema2/icon7.svg'),
       },
       {

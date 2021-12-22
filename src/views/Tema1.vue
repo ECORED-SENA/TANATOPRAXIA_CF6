@@ -38,14 +38,14 @@
             p.mb-0
               b(style="color: #008F85;") La asepsia 
               b-none es un 
-              b proceso por el cual se trata de eliminar o disminuir la presencia de microorganismos que se encuentran alojados sobre objetos, superficies inanimadas, instrumental, entre otros.
+              b proceso por el cual se trata de eliminar o disminuir la presencia de microorganismos que se encuentran alojados sobre objetos, superficies inanimadas, instrumental, entre otros. 
               b-none Su 
-              b(style="color: #008F85;") principal objetivo
+              b(style="color: #008F85;") principal objetivo 
               b-none es evitar que los microorganismos sobre los que se actúa se conviertan en una fuente de contaminación.
       .col-md-3.col-sm-1
         //vacio
 
-    p.mb-4 si bien, es 
+    p.mb-4 Si bien, es 
       b fundamental comprender el significado de las acciones que se desarrollan en el contexto de la asepsia, 
       b-none este trasciende cuando usted se implementan un conjunto de procedimientos y recursos, es decir una técnica; 
       b(style="color: #008F85;") se ha preguntado qué es una técnica en el contexto de la asepsia
@@ -59,7 +59,7 @@
         .col-lg-9
           .bloque-texto-a__texto.p-4
             p Son el 
-              b conjunto de actividades y procedimientos realizados con el fin de prevenir y controlar las posibilidades de contaminación microbiana en un sitio de trabajo.
+              b conjunto de actividades y procedimientos realizados con el fin de prevenir y controlar las posibilidades de contaminación microbiana en un sitio de trabajo. 
               b-none En el contexto funerario, es importante que usted 
               b(style="color: #008F85;") mantenga adecuadas técnicas en el laboratorio de tanatopraxia porque es un lugar donde suelen habitar diferentes microorganismos 
               b-none por las diferentes acciones que se ejecutan con el cuerpo de un fallecido.
@@ -204,7 +204,7 @@
                         img.mx-auto(src='@/assets/curso/tema1/img10.svg', alt='imagen ambiental', style='width:139px;')
                   .row.justify-content-center.mb-4
                     .col-lg-12
-                      p.mb-0 Existen diferentes métodos para lograr la esterilización, pero la escogencia de un método dependerá de las especificaciones del fabricante quien determina si el material se si puede o no se puede reprocesar. Los métodos más usados de esterilización son físicos y químicos. Veamos sus especificaciones. 
+                      p.mb-0 Existen diferentes métodos para lograr la esterilización, pero la escogencia de un método dependerá de las especificaciones del fabricante quien determina si el material se puede o no se puede reprocesar. Los métodos más usados de esterilización son físicos y químicos. Veamos sus especificaciones. 
                   .row.justify-content-center.mb-4
                     .col-lg-12
                       .tabla-a.color-primario.mb-5 
@@ -229,7 +229,7 @@
                                     p.mb-0 R&aacute;pido efecto biocida.
                                   li 
                                     i.fas.fa-biohazard
-                                    p.mb-0 Ciclo r&aacute;pido, 20 minutos a 121&ordm;C y a 134&ordm;C entre 3 a 5 minutos.
+                                    p.mb-0 Ciclo rápido, 20 minutos a 121 ºC y a 134 ºC entre 3 a 5 minutos.
                                 
                               td(style='background-color: #ffff;')
                                 ul.lista-ul.mb-4
@@ -252,7 +252,7 @@
                                     p.mb-0 Esterilizaci&oacute;n de sustancias en polvo o no acuosas.
                                   li 
                                     i.fas.fa-biohazard
-                                    p.mb-0 Temperatura promedio entre 140&ordm;C y 190&ordm;C.
+                                    p.mb-0 Temperatura promedio entre 140 ºC y 190 ºC.
                                 
                               td
                                 ul.lista-ul.mb-4
@@ -269,16 +269,16 @@
                                     p.mb-0 M&eacute;todo muy eficiente en la desactivaci&oacute;n de microorganismos.
                                   li 
                                     i.fas.fa-biohazard
-                                    p.mb-0 Es r&aacute;pido, flexible y tiene gran capacidad de penetraci&oacute;n en lo materiales.
+                                    p.mb-0 Es rápido, flexible y tiene gran capacidad de penetración en los materiales.
                                 
                               td(style='background-color: #ffff;')
                                 ul.lista-ul.mb-4
                                   li 
                                     i.fas.fa-biohazard
-                                    p.mb-0 Solo puede ser aplicada dentro de instalaci&oacute;n especificas con un alto nivel de seguridad.
+                                    p.mb-0 Solo puede ser aplicada dentro de instalaciones específicas con un alto nivel de seguridad.
                             
                             tr(style='border-bottom: solid 2px #12263F')
-                              td.text-center(rowspan='4' style='border-right: solid 2px #12263F') Quimico
+                              td.text-center(rowspan='4' style='border-right: solid 2px #12263F') Químico
                               td.text-center(style='border-right: solid 2px #12263F') Plasma/Vapor de peróxido de hidrógeno 
                               td(style='border-right: solid 2px #12263F')
                                 ul.lista-ul.mb-4
@@ -304,7 +304,7 @@
                                     i.fas.fa-biohazard
                                     p.mb-0 Contenedores especiales.
                             tr(style='border-bottom: solid 2px #12263F')
-                              td.text-center(style='border-right: solid 2px #12263F; background-color: #ffff') Oxido de etileno
+                              td.text-center(style='border-right: solid 2px #12263F; background-color: #ffff') Óxido de etileno
                               td(style='border-right: solid 2px #12263F; background-color: #ffff')
                                 ul.lista-ul.mb-4
                                   li 
@@ -363,7 +363,7 @@
               
               .row(numero="4" titulo="Almacenamiento adecuado")
                 .col-md-12.mb-4.mb-md-0
-                  p.mb-2 Cuando los objetos o instrumentos han sido desinfectados o esterilizados estos deberán de ser guardados en recipientes adecuadamente esterilizado o desinfectado por un máximo de una semana después de tratarlos.
+                  p.mb-2 Cuando los objetos o instrumentos han sido desinfectados o esterilizados estos deberán de ser guardados en recipientes adecuadamente esterilizados o desinfectados por un máximo de una semana después de tratarlos.
               
 
     .row.justify-content-around.fondo2.mb-4(style="border-radius: 8px;")
