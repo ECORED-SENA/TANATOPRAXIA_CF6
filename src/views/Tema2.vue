@@ -630,7 +630,7 @@
 
     figure.mb-5
       .video
-        <iframe width="699" height="393" src="https://www.youtube.com/embed/tXoLhzoTchg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="853" height="480" src="https://www.youtube.com/embed/wtTeMZ4vzbQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       
     p.mb-4 Para concluir, se determina que los 
       b desinfectantes tópicos se utilizan para realizar la higienización 
